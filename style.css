@@ -1,0 +1,244 @@
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+}
+nav {
+background-color: black;
+color: beige;
+padding: 20px 50px;
+}
+.navTop{
+display: flex;
+align-item: center;
+justify-content: space-between;
+}
+.search {
+display: flex;
+align-item: center;
+padding: 10px 20px;
+background-color: grey;
+}
+.limitedOffer {
+cursor: pointer;
+}
+.navBottom {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.menuItem {
+margin-right: 50px;
+cursor: pointer;
+}
+.slider {
+overflow: hidden;
+}
+.sliderWrapper {
+display: flex;
+width: 500vw;
+transition: all 1s ease-in-out;
+}
+.sliderItem {
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.sliderTitle {
+position: absolute;
+top: 10%;
+right: 10%;
+font-size: 60px;
+font-weight: bolder;
+text-align: center;
+color: grey;
+}
+.sliderPrice {
+position: absolute;
+top: 10%;
+left: 10%;
+font-size: 60px;
+font-weight: bolder;
+text-align: center;
+color: grey;
+}
+.buybutton {
+position: absolute;
+top: 50%;
+right: 20%;
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+color: white;
+background-color: black;
+cursor: pointer;
+}
+.buyButton:hover {
+background-color: white;
+color: black;
+}
+.features {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px;
+}
+.feature {
+display: flex;
+flex-flow: column;
+align-items: center;
+text-align: center;
+}
+.featureImg {
+width: 50px;
+height: 50px;
+}
+.featureTitle {
+font-size: 20px;
+font-weight: 600;
+margin: 20px;
+}
+.featureDesc {
+color: grey;
+width: 50%;
+height: 100px;
+}
+.product {
+height: 100vh;
+background-color: whitesmoke;
+position: relative;
+}
+.payment {
+height: 650px;
+width: 500px;
+background-color: white;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+padding: 10px 50px;
+display: none;
+flex-flow: column;
+}
+.payInput {
+padding: 10px;
+margin: 10px 0px;
+}
+.close {
+width: 20px;
+height: 20px;
+position: absolute;
+background-color: red;
+color: white;
+top: 10px;
+right: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding: 2px;
+}
+.productImg {
+width: 50%;
+}
+.productDetails {
+position: absolute;
+top: 10%;
+right: 0;
+width: 40%;
+padding: 50px;
+}
+.productTitle {
+font-size: 75px;
+font-weight: 900;
+}
+.colors,.sizes {
+display: flex;
+}
+.color {
+width: 32px;
+height: 32px;
+border-radius: 5px;
+background-color: black;
+margin-right: 10px;
+cursor: pointer;
+}
+.color:last-child {
+background-color: darkblue;
+}
+.size {
+padding: 5px 20px;
+border: 1px solid black;
+margin-right: 10px;
+cursor: pointer;
+font-size: 20px;
+}
+.productButton {
+cursor: pointer;
+float: right;
+padding: 10px 20px;
+background-color: black;
+color: white;
+font-weight: 600;
+} 
+.productButton:hover {
+background-color: white;
+color: black;
+}
+footer {
+display: flex;
+}
+.footerLeft {
+flex: 2;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+}
+.fMenuTitle {
+font-size: 16px;
+}
+.fMenuList {
+padding: 0;
+list-style: none;
+}
+.fListItem{
+margin-bottom: 10px;
+color: grey;
+cursor: pointer;
+}
+.footerRight {
+flex: 1;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+flex-direction: column;
+}
+.fIcons {
+display: flex;
+}
+.fIcon {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
